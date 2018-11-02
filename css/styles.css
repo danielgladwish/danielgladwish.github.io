@@ -60,21 +60,21 @@
      .img{width: 47%; padding: 50px 10px 10px 10px; float: left;}
 img{height: auto; width: 100%;}
     body{font-family: 'extended', sans-serif;-webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale; margin: 0px; background: #2d6344; overflow-x: hidden;}
+-moz-osx-font-smoothing: grayscale; margin: 0px; background: white; overflow-x: hidden;}
     
     
-   
+.aqua {color: #c7eadb;}
   
     #maincontian{top: 800px; position: relative;background: white;width: 100%;}
     
-    .bodycontain{margin: auto; top: 100px;display: flex;flex-direction:row; flex-wrap: wrap;  justify-content: center; width: 90%; max-width: 1000px;
-border: 3px solid #cdf2e2;}
+    .bodycontain{margin: auto; top: 100px;display: flex;flex-direction:row; flex-wrap: wrap;  justify-content: space-between; width: 90%; max-width: 1200px;
+}
     
     #nav{ top: 0;  float: right; }
     #arrow{position: absolute;top: 620px; text-align: center; color: white; width: 100%; font-family: 'roboto', sans-serif; }
     #logotype{;margin: 5px;float: left;}
     
-    .service{width: 20%;  min-width: 180px; margin: auto; text-align: left;padding: 5px; color:#2d6344; flex-grow:1; margin: 10px;font-family: 'roboto', sans-serif; font-size: 1.2em;}
+    .service{width: 20%;  min-width: 180px; margin: auto; text-align: left;padding: 5px; color:#2d6344; flex-grow:1; margin: 10px;font-family: 'roboto', sans-serif; font-size: 1.2em; line-height: 160%;}
     
     h1{padding: 5px;font-family: 'extended', sans-serif; -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;font-size: 25px; }
@@ -102,7 +102,7 @@ a{text-decoration: none;}
     }
     .myslides {height: 200px; background: #2b6543;}
 
-    .pagedescr{width: 100%; top: 20px; font-family: 'roboto', sans-serif; font-weight: 100; font-size: 40px;letter-spacing: 1px; text-align: center; color: #2d6344; padding: 20px;    background: #cef2e2; }
+    .pagedescr{width: 100%; top: 20px; font-family: 'roboto', sans-serif; font-weight: 100; font-size: 40px;letter-spacing: 1px; text-align: center; color: #2d6344; padding: 20px;    background: #c7eadb; }
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -132,7 +132,8 @@ a{text-decoration: none;}
     font-family: extended;
     src: url(AkzidenzGrotesk-BoldExtended.otf);
 }
-
+@font-face{ font-family:extlite;
+    src: url(AkzidenzGrotesk-MediumExtended.otf)}
 .cptntext {
   color: white;
   font-size: 2em;
@@ -143,7 +144,7 @@ font-weight: bold;
   width: 100%;
   text-align: center;
 }
-#ourstory{width: 300px;padding: 17px 15px 30px 10px;}
+#ourstory{width: 300px;padding: 17px 15px 96px 10px;}
 
  */
 .fade {
