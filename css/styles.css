@@ -63,7 +63,7 @@ img{height: auto; width: 100%;}
 -moz-osx-font-smoothing: grayscale; margin: 0px; background: white; overflow-x: hidden;}
     
     
-.aqua {/*color: #c7eadb;*/ font-family: 'extended', sans-serif;font-size: .9em;}
+.aqua {/*color: #c7eadb69;*/ font-family: 'extended', sans-serif;font-size: .9em; line-height: 250%;}
     #maincontian{top: 800px; position: relative;background: white;width: 100%;}
     
     .bodycontain{margin: auto; top: 100px;display: flex;flex-direction:row; flex-wrap: wrap;  justify-content:space-around; width: 90%; max-width: 1200px;
@@ -73,7 +73,7 @@ img{height: auto; width: 100%;}
     #arrow{position: absolute;top: 620px; text-align: center; color: white; width: 100%; font-family: 'roboto', sans-serif; }
     #logotype{;margin: 5px;float: left;}
     
-    .service{width: 20%;  min-width: 180px; margin: auto; text-align: left;padding: 20px; color:#2d6344; flex-grow:1; margin: 10px;font-family: 'roboto', sans-serif; font-size: 1.2em; line-height: 130%;}
+    .service{width: 20%;  min-width: 180px; margin: auto; text-align: left;padding: 20px; color:#2d6344; flex-grow:1; margin: 10px;font-family: 'roboto', sans-serif; font-size: 1.2em; line-height: 130%; background: #c7eadb69;}
     
     h1{padding: 5px;font-family: 'extended', sans-serif; -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;font-size: 25px; }
@@ -94,14 +94,14 @@ img{height: auto; width: 100%;}
 }
 
 
-a{text-decoration: none; color: inherit;}
+a{text-decoration: none; color: inherit;hyphens: auto;}
 
     .service .title{text-align: center;font-family: 'extended', sans-serif;
-      font-size: 25px;line-height: 90%; font-kerning: normal;
+      font-size: 25px;line-height: 90%; font-kerning: normal; padding-bottom: 20px;
     }
     .myslides {height: 200px; background: #2b6543;}
 
-    .pagedescr{width: 100%; top: 20px; font-family: 'roboto', sans-serif; font-weight: 100; font-size: 40px;letter-spacing: 1px; text-align: center; color: #2d6344; padding: 20px;    background: #c7eadb; }
+    .pagedescr{width: 94%; top: 20px; font-family: 'roboto', sans-serif; font-weight: 100; font-size: 40px;letter-spacing: 1px; text-align: center; color: #2d6344; padding: 20px;    background: #c7eadb69; margin-bottom: 10px;}
 .prev, .next {
   cursor: pointer;
   position: absolute;
