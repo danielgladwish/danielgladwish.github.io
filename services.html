@@ -1,33 +1,33 @@
 <html>
     
 <head><title>The Urban Forester</title>
- 
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
 
    
     <link rel="stylesheet" href="css/styles.css">
     <style>
         #maincontian {top: 0px;}
+        .bodycontain {height: -webkit-fill-available; }
+        @media (min-width: 320px) and (max-width: 900px) {#maincontain{top: }
+        } 
     </style>
 </head>
-    
-    
-    
-    <body>
+ <body >
      
-     <div id="maincontian">
+     <div id="maincontian"style="">
  <div id="headercontainer"> <div id="logotype"><h1>The Urban Forester <span class="secondarytxt"> Home Contracting</span></h1></div>
     <div id="nav"> 
   <ul> 
         <a href="index.html"><li>About</li></a>
-      <a href="services.html"><li>Services</li></a>
+      <a href="services.html" style="border-bottom: 2px solid #e67854"><li>Services</li></a>
         <a href="contact.html"><li>Contact</li></a>
         </ul>   </div> </div>
         
 
         
     <div class="bodycontain">
-        <div class="pagedescr">Our Services</div>
+      <!--  <div class="pagedescr">Our Services</div>
 
           <div class="service"><span class="title">Plumbing</span>
               <p style="line-height: 30%; margin: 0px;"><br>&#8212;<br></p>
@@ -99,30 +99,82 @@ Countertop Repair or Maintenance<br>
          
          
       <!--  <div class="banner">   <div class="img"><img  src="20140403_162251.jpg"/> </div><div class="img"> <img  src="20140422_151028_Gulf.jpg"/></div></div> -->
-         
+      <div id='slider'style="display: block; justify-content: space-between; width: 100%;" >
+          <div style="text-align:center; margin:20px 20px;">
+  <span class="dot" onclick="currentSlide(1)"> Plumbing</span> 
+  <span class="dot" onclick="currentSlide(2)">Handyman</span> 
+  <span class="dot" onclick="currentSlide(3)">Carpentry</span> 
+</div>
+<div class="mySlides fade">
+    
+ <ul><a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+<a class="next" onclick="plusSlides(1)">&#8594;</a> <span class="title">Plumbing
+              </span><br>
+       <li> Bathroom Remodel</li>
+      <li>  Shower and Bathtub Installation or Replacement</li>
+      <li>         Garbage Disposal Installation</li>
+<li> Sink or Faucet Installation or Replacement</li>
+<li> Toilet Installation or Replacement</li>
+<li> Toilet Repair</li>
+  <li>   Home Remodeling</li>
+         <li> Kitchen Remodel</li>
+     <li> Kitchen Remodel</li>
+    </ul></div>
+
+
+<div class="mySlides fade"><ul><a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+<a class="next" onclick="plusSlides(1)">&#8594;</a> <span class="title">Handyman</span>
+       
+         <li>Closet and Shelving System Installation</li>
+
+       <li> Dishwasher Installation</li>
+<li>Door Installation</li>
+<li>Drywall Installation and Hanging</li>
+
+         <li>Fence Painting</li>
+
+
+         <li>Garage Door Installation or Replacement</li>
+
+          <li>Cabinet Installation</li>
+       <li>Cabinet Painting</li>
+        <li> Window Installation</li>
+        <li> Interior Painting</li>
+         <li> Exterior Painting</li>
+        
+        
+       
+<li>Lock Installation and Repair</li>
+
+        
+</ul>
+</div>
+
+<div class="mySlides fade"><ul><a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+<a class="next" onclick="plusSlides(1)">&#8594;</a>
+  <span class="title">Carpentry</span>
+           
+     <li> Deck Staining and Sealing</li>
+<li>Deck or Porch Remodel or Addition</li>
+<li>Deck or Porch Repair</li>
+       <li>     Countertop Installation</li>
+<li>Countertop Repair or Maintenance</li>
+    <li> Framing Carpentry</li>
+           <li> Fence and Gate Installation</li>
+           <li> General Carpentry<br></ul>
+</div>
+
+
+<br>
+    </div >   
          
          </div>   
     
 
 <div>
-<!--<div class="mySlides fade">
-  <div class="cptntext">Just the best!</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="cptntext">“I mean I guess hes ok?”</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="cptntext">Meh.</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-<br>
-    </div >-->
-
-<footer>The Urban Forester |<i> San Antonio Texas</i></footer></div >
+</div> 
+</div >
+<footer>The Urban Forester |<i> San Antonio Texas</i></footer>
     <script>
     var element1 = document.querySelector("#pinned-element1");
 var element2 = document.querySelector("#pinned-element2");
